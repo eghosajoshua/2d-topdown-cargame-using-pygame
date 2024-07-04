@@ -16,7 +16,7 @@ icon =  pygame.image.load("./images/icon.png")
 pygame.display.set_icon(icon)
 
 # create a game window with width and height
-screen_width  =  400
+screen_width  =  500
 screen_height = 750
 screen = pygame.display.set_mode((screen_width,screen_height))
 
@@ -36,7 +36,7 @@ mixer.music.play(-1)
 # load the player image
 playerImg =  pygame.image.load("./images/player.png")
 #initial player position on screen
-playerPosX =  200 - (64/2)
+playerPosX =  250 - (64/2)
 playerPosY =  650
 #rate of change of player position
 playerXPosChange = 0
@@ -53,7 +53,7 @@ enemySpeed   =  []
 enemyYPos  = []
 enemyXPos  = []
 #four spawn positions in the x-axis
-enemySpawnPositions  = [55,130 ,210,290]
+enemySpawnPositions  = [120,210, 305,380]
 numberOfEnemies = 8
 
 # load the explosionImg
